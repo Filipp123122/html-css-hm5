@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    padding-bottom: 96px;
+}
+
+.header{
+    margin-top: 51px;
+    margin-bottom: 94.71px;
+}
+
+.top_content {
+    margin-bottom: 103px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.top_buttons {
+    margin-top: 37px;
+}
+
+.header {
+    display: grid;
+    gap: 59px;
+    grid-template-columns: repeat(3, 371px);
+    justify-content: center;
+    margin-bottom: 192px;
+}
+
+.item {
+    padding: 40px 31px 25px 29px;
+    display: grid;
+}
+
+.info {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.header_heading{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.item_middle {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item_info {
+    background: #FFF;
+    padding: 1px 1px 50px 1px;
+    display: grid;
+    justify-items: center;
+}
+
+.item_info_middle {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.text_content {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.readmore {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    padding-top: 25px;
+}
+
+.title_info {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_info {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_inf {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-bottom: 39px;
+}
+
+.buttons {
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.20);
+    border-radius: 50px;
+}
+
+.button_text{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    line-height: 19.50px;
+    word-wrap: break-word;
+    padding: 15px;
+}
+
